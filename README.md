@@ -1,26 +1,25 @@
-# Eduwise - Smart E-Learning Platform
+# EduWise – E-Learning Platform (Frontend)
 
-The Smart E-Learning Platform is an advanced educational tool designed to enhance the learning experience through innovative technology. The platform integrates modern web development techniques and artificial intelligence to offer a comprehensive solution for students, educators, and administrators. Its primary features include personalized learning recommendations, interactive dashboards, and robust data security measures.
+A full-featured e-learning web app where users can enroll in courses, watch lectures, solve quizzes, earn certificates, and become instructors.
 
-***Purpose:***
+## ✅ Why I Built This
+This was my **Software Engineering term project** and also my **first large full-stack project after my internship**  — more than 25,000 lines of code. I built it to learn how real-world platforms work: authentication, dashboards, media uploads, role-based access, certificate generation, and more.  
+It became the best project in my class.
 
-The Smart E-Learning Platform aims to:
+## 🛠 Tech Stack
+- **Frontend:** React.js, Bootstrap, CSS
+- **State Management:** Redux
+- **Authentication:** JWT tokens + HTTP-only cookies
+- **File storage:** AWS S3 (course videos & thumbnails)
+- **Deployment:** Vercel, Heroku
+- **API:** Node.js / Express backend (separate repo)
 
-Improve learning outcomes through personalized course recommendations and interactive learning resources.
-Provide educators with efficient tools for course management and student engagement.
-Ensure data security and privacy for all users.
-
-***Primary Features:***
-
-Student Dashboard: Centralized access to courses, progress tracking, assignments, and personalized recommendations.
-Instructor Dashboard: Tools for managing courses, grading, analytics, and student interaction.
-Admin Dashboard: User management, system oversight, and reporting capabilities.
-AI Help Chatbot: Provides 24/7 assistance and guidance to users.
-Course Recommendation System: Uses AI to suggest courses based on student preferences and performance.
-
-***Target Audience:***
-
-Students: Seeking a more engaging and personalized learning experience.
-Educators: Need efficient tools for course management and student interaction.
-Administrators: Responsible for overseeing platform operation and user management.
-
+## ✨ Features
+- ✅ Users can browse and enroll in courses  
+- ✅ Video player for lectures (streamed from S3)  
+- ✅ Quizzes for each course  
+- ✅ Certificates issued on course completion  
+- ✅ Users can rate and leave feedback  
+- ✅ Instructor mode (switch between Student and Instructor)
+- ✅ Instructors can upload courses, videos, quizzes, and thumbnails  
+- ✅ Fully responsive UI
